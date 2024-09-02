@@ -77,6 +77,7 @@ const RegisterPage = () => {
                     <input type="text"
                         placeholder="First Name"
                         name="first_name"
+                        autoComplete="name"
                         onChange={handleChange}
                         value={first_name}
                         required
@@ -91,6 +92,7 @@ const RegisterPage = () => {
                     <input type="email"
                         placeholder="Email"
                         name="email"
+                        autoComplete="email"
                         onChange={handleChange}
                         value={email}
                         required
